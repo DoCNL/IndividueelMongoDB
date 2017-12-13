@@ -6,27 +6,27 @@ const HallSchema = new Schema({
     name: String,
     description: String
 });
-
+//to do: add angular part for cinemahalls
 const Hall = mongoose.model('hall', HallSchema);
 
 const hall1 = new Hall({
-    name: 'Zaal 1',
-    description:'200 plekken',
+    name: 'Hall 1',
+    description:'200 seats',
 });//.save();
 
 const hall2 = new Hall({
-    name: 'Zaal 2',
-    description:'150 plekken',
+    name: 'Hall 2',
+    description:'150 seats',
 });//.save();
 
 const hall3 = new Hall({
-    name: 'Zaal 3',
-    description:'250 plekken',
+    name: 'Hall 3',
+    description:'250 seats',
 });//.save();
 
 const hall4 = new Hall({
-    name: 'Zaal 4',
-    description:'300 plekken',
+    name: 'Hall 4',
+    description:'300 seats',
 });//.save();
 
 module.exports = Hall;

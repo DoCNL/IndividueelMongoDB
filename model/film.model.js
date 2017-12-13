@@ -9,7 +9,7 @@ const FilmSchema = new Schema({
 });
 
 const Film = mongoose.model('film', FilmSchema);
-
+//dummydata, comment save weg na een keer launchen
 const film1 = new Film({
     name: 'Jigsaw',
     description:'A psycho murderer.',
