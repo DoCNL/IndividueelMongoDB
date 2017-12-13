@@ -8,7 +8,7 @@ const ShowSchema = new Schema({
 });
 
 const Show = mongoose.model('show', ShowSchema);
-
+//to do: add angular timetable and add to db
 const show1 = new Show({
     day: 'Monday 18-12-2017',
     time: '19:00'
